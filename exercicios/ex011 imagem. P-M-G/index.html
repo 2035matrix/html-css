@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p> Tente abri esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <!-- tag img ... pra carregar a foto na pasta depois > 
+        usamos a nova tag  <picture> <pictire> dentro dela colocamos >> >>  (source media type) muda para max-width: 1050px ou 750 ou 700 depende) no alte colocamos imagem felexivel.
+            depois cria outra tang source acima da nova se nao n vai funcionar
+    depois-->
+    <picture>
+        <source media="(max-width:790px )" srcset="IMG/foto-p.png" type="image/png">
+        <source media="(max-width: 990px)" srcset="IMG/foto-m.png" type="image/png">
+        <img src="IMG/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    <h1>  Reproduzindo Áudios</h1>
+    <p> Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/grace-.mp3.mp3" controls autoplay></audio>
+</body>
+</html>

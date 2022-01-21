@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="fafa.ico.ico" type="image/x-icon">
+    <title>Trabalhando com Links</title>
+</head>
+<body>
+  <h1> Usando links externos</h1>
+  <p>Esta e a primeira página do site. Se Você quiser, pode acessar a minha  <a href="page002.html" rel="prev">Segunda página</a> </p>   
+  <!-- usei real="prev" significa anterior . palavra completa seria Previous   -->
+
+
+
+
+  <p> Esta página é um oferecimento de <a href="https://www.apple.com/br " target="_blank" rel="nofollow">Apple</a> </p>
+
+
+  <!-- >>>>   ( nofollow )   <<<  
+      
+    é um atributo (rel=”NoFollow”) inserido no HTML que serve para instruir os buscadores que um determinado hyperlink não deve ser seguido e que sua página de destino não deve receber link juice da página de origem.-->
+
+
+
+
+   
+
+<!-- rel + prev mostra para google qual sitema de navegacao que vc  esta criando para seu Site ..
+com isso não vc não deixa google mostra qual sera aproxima página mais vc mostra pra ele o caminho.
+
+voce não notara nada porque esse sistema funciona por dentro dando um valor a esse link-->
+
+
+
+  <p> Você pode ver agora o mais novo <a href="https://www.apple.com/br ">lançamento da Apple </a> </p>
+
+  <!-- O primeiro code que está a cima esta sem  os parametros
+
+              >>>>>>>>>>>   Target=_black"/ rel="external   <<<<<<<
+
+                  Target="_black" =>  leva para outro lugar ou site
+                  rel="external"  => idica para navegador que e um link externo 
+ 
+
+                 target="_black" rel="external">  
+
+                  esses parametros e recomendado 
+                  para abri um nova aba em 
+                  um web site que não seja seu ... 
+                         permiti  abri 
+                  um website em uma nova aba -->
+
+
+  <p> Você também pode acessar o canal da <a href="https://www.youtube.com/applesupport" target="_black" rel=" external">apple no Youtube</a> </p>
+  <p> Você também pode acessar <a href="jornal/page003.html" rel="next
+    ">apple noticias</a> </p>
+</body>
+<h1> Links para Donwload</h1>
+<ul>
+  <li> <a href="#">Baixar Livro em PDF </a> </li>
+  <li><a href="Book/curso.zip.zip" download="curso.zip.zip" type="application/zip">Livro compactado em ZIP </a></li>
+</ul>
+</html>

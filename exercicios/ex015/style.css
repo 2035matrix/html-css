@@ -1,0 +1,16 @@
+@charset "UTF -8";
+
+body {  
+    background-color: rgb(243, 221, 165);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 18px;
+}
+h1 { 
+    color: rgb(78, 0, 0); 
+    background-color: rgb(147, 202, 253);
+}
+h2 { color: darkred; background-color: lightseagreen;
+} 
+p  { 
+     text-align: justify;
+}

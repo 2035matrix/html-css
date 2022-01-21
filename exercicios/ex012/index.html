@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video com HTML5</title>
+</head>
+<body>
+    <h1> Inserido video hospedados localmente.</h1>
+    <p>Este video está hospedado no meu próprio servidor.</p>
+    
+      <!-- essa configuracao e para um video no website com um unico formato seja la mp4 ou webm etc.. -->
+
+    <!-- <video src='' width=' 100 ou 200 etc' (controls) para da o play no video>
+        
+        codigo para colocar videos no website
+      Tag -- > <video> depois se o video ficar grande demais use a tag -> ( width  depois so escolher o tamanho ex 100,200,300,400,500 etc..) para reduzir o tamanho do video .. depois para colocar o play no video usa a Tag  ( controls )-->
+
+
+            <!-- lembrado que esses video em seus formatos podem ser um problams para o cliente.    Que videos hospedados ESSA MANEIRA VÃO CONSUMIR MUITOS TRAFICO DE DADOS ... consumo de banda SERA MUITO ALTA  !!!! 
+            por isso PODEMOS INCORPORAR O VIODE  do youtube  USANDO O CODIGO HTML DELES-->
+
+             <h1> Testando de video do Vimeo</h1>
+            <iframe src="https://player.vimeo.com/video/124627023?h=0774ad75a0&color=ffffff&title=0&byline=0&portrait=0" width="400" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+            <h1>Teste de Codigo para >>>  1 YouTube</h1>
+          <iframe width="400" height="315" src="https://www.youtube.com/embed/VLUl3NgQY1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<hr>
+          <h1><p>Teste de video do proprio servidor</p></h1>
+        <video width="350"poster="imagens/lemao.png" controls loop>
+            <source src="midia/meu-video.mp4.mp4" type="video/mp4">
+            <source src="midia/meu-video.webm.webm" type="video/webm">
+            <source src="midia/meu-video.ovg.ogv" type="video/ogg"> 
+            <source src="midia/meu-video.m4v.m4v" type="video/mp4">
+            <p> Seu não tem compatibilidade com reprodução de videos.</p>
+
+           
+
+            <!-- esse são alguns formatos para roda em diferentes navegadores tente cada um deles  
+            feito nessa sequencia quem usa ios,ou windows, ou google, ou firefox vai tentar roda o video em seu navegador-->
+        </video>
+
+
+       
+
+
+</body>
+</html>
