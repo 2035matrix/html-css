@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient em CSS</title>
+
+
+
+    <!--- degrade code backgound-image:linear-grandient(to left ou to right, a cor que vc quer, mais outra cor)-->
+    
+    <!-- tudo dentro do head  + 
+        <style>
+            body {
+                backgound-image: linear-gradient < degrader to left, ou to right, ou to top, + para baixo e to bottom,cores no final
+            }
+        <style>        -->
+
+
+
+            <!--- configurações globas das CSS */ 
+            *{
+                height: 100% dentro da tag style
+            }
+            -->
+            <!-- backgound-attachment: fixed;  deixa o fundo fixo-->
+
+            <!-- -45deg, ou 45deg muda angulo do degrad-->
+            <!--  usar tamebm %1 %10 etc.. nas cores  ex: cor> #4E64D3 50% -->
+    <style>
+        *{
+            height: 100%;
+        }
+         body {
+              background-image: linear-gradient(to left,#4E64D3 75%, #8142BA,#C43090, #E63E5B,#FECE6A );
+              background-attachment: fixed;   
+                     }
+    </style>
+</head>
+<body>
+    <h1>Testando gradiente</h1>
+</body>
+</html>
